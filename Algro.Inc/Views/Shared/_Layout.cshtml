@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Algro :: Innovative IT and Business Solutions ::</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="shortcut icon" href="../images/logo_icon.gif">
+    <style>
+      /*  #block-what-we-think .acn-icon.icon-share, #block-what-we-think .countText.clickable, #block-what-we-think .module-article h4, #block-what-we-think .title.clickable, #block-what-we-think .featured-section-module a, #block-what-we-think .featured-section-module a:hover, #block-what-we-think .featured-section-module-carousel.interactive-fsm .cta.featured-section-article-link.center {
+     color: #7E00FF !important;}*/
+     #block-what-we-think .module-article li
+     {
+         margin:5px 0;
+     }
+           
+ #block-what-we-think .module-article ul
+     {
+         list-style:none;
+     }
+
+    </style>
+    <style>
+        #block-hero.bg-color-active {
+            background: #68b!important;
+        }
+
+        #block-hero {
+            max-height: 435px !important;
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+<body id="body-id">
+    <div id="ui-wrapper" style="position:relative;">
+       @Html.Partial("Header")
+        @*<div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>*@
+       
+            @RenderBody()
+
+     
+        <div id="layout-wrapper" class="ui-layout-wrapper footerlayout" style="position:relative">
+
+
+            <div id="overflow-controller" style=" height: 300px;">
+                <div id="shape-1" class="outer right ui-square shape-color-full-black" data-content-id="block-footer" style="margin-top: -6.5px;">
+                    <div id="inner_shape-1" class="inner parallax" style="/* background-image: url(&quot;&quot;); *//* padding-top: 272px; *//* padding-bottom: 272px; *//* margin-top: -272px; */ margin-top: 40px;height: 300px;">
+                        <div id="block-footer" class="ui-container color-container row c-right c-ui-square" data-shape="Square" data-shape-color="full-black" data-scroll-speed="1" data-background-video="" data-background-image="url('')" style="min-height: 471px;">
+                            <div class="ui-content-box inline not-printable visible-lg visible-md visible-sm">
+                                <section class="container-block">
+                                    <div class="col-sm-12">
+
+                                        <div>
+                                            <span>
+                                                <label style="color:white; font-size:15px;">Local:&nbsp;</label>
+                                                <span>
+
+                                                    <a class="phone-LocalPhoneNumber" style="color:white; font-size:15px" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:footer" href="callto://13128425012">+1 (312) 842-5012</a>
+                                                </span>
+                                                <label style="color:white; font-size:15px;">Toll Free:&nbsp;</label>
+                                                <span>
+
+                                                    <a class="phone-TollFreeHotLine" style="color:white; font-size:15px" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:footer" href="callto://18778899009">1 (877) 889-9009</a>
+                                                </span>
+                                            </span>
+                                            <div class="social">
+                                                <a class="acn-spr facebook" title="Follow us on Facebook" href="http://www.facebook.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:exit" aria-label="Follow us on Facebook"></a>
+                                                <a class="acn-spr linkedin" title="Follow us on LinkedIn" href="https://www.linkedin.com/company/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:exit" aria-label="Follow us on LinkedIn"></a>
+                                                <a class="acn-spr twitter" title="Follow us on Twitter" href="http://www.twitter.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:exit" aria-label="Follow us on Twitter"></a>
+                                                <a class="acn-spr youtube" title="See Accenture on YouTube" href="http://www.youtube.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:exit" aria-label="See Accenture on Youtube"></a>
+                                                <a class="acn-spr accenture app" title="Accenture Mobile Apps" href="/in-en/accenture-apps" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footermodule:exit" aria-label="Accenture Mobile Apps"></a>
+                                            </div>
+                                            <div>
+                                                <div class="footer-textlink">
+                                                    <span>
+
+                                                        <a style="color:white; font-size:15px;" href="~/Home/Index" title="About Algro" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footer">About Algro INC</a>&nbsp;&nbsp;
+
+                                                    </span>
+                                                    <span>
+
+                                                        <a style="color:white; font-size:15px;" href="~/About/contactus" title="Contact Us" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footer">Contact Us</a>&nbsp;&nbsp;
+
+                                                    </span>
+                                                    <span>
+
+                                                        <a style="color:white; font-size:15px;" href="~/About/Location" title="Find a Location" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footer">Find a Location</a>&nbsp;&nbsp;
+
+                                                    </span>
+                                                </div>
+                                                <div class="footer-textlink">
+
+                                                    
+                                                    <span style="">
+
+                                                        <a style="color:white; font-size:15px;" href="~/About/termsuse" title="Terms of Use" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footer">Terms of Use</a>&nbsp;&nbsp;
+                                                    </span>
+                                                    <span style="">
+
+                                                        <a style="color:white; font-size:15px;" href="~/About/careers" title="Careers" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="footer">Careers</a>&nbsp;&nbsp;
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <div id="disclaimer-copyright" class="color-white" style="font-size:15px;">
+                                                <p class="footer-copyright"><span>©&nbsp;</span><span>2018 </span><span>Algro INC. All Rights Reserved.</span></p>
+                                                <br>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="ui-content-box inline not-printable visible-xs">
+                                <section class="container-block">
+                                    <div class="col-sm-12">
+
+
+
+
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <a href="~/Home/Index" id="footer-contacts" tabindex="-1" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer">
+                                                        <span class="icons-links" style="display: inline-block;width: 18px;"></span>
+                                                        <span style="color:white; font-size:15px;">About Algro INC</span>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="~/About/contactus" id="footer-contacts" tabindex="-1" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer">
+                                                        <span class="icons-links__icon-contact"></span>
+                                                        <span style="color:white; font-size:15px;">Contact Us</span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="mobile-footer-contacts">
+                                                    <div>
+                                                        <label style="color:white; font-size:15px;">Local:&nbsp;</label>
+                                                        <span><a class="phone-LocalPhoneNumber" style="color:white; font-size:15px" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer" href="callto://13128425012">+1 (312) 842-5012</a></span>
+                                                    </div>
+                                                    <div>
+                                                        <label style="color:white; font-size:15px;">Toll Free:&nbsp;</label>
+                                                        <span><a class="phone-TollFreeHotLine" style="color:white; font-size:15px" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer" href="callto://18778899009">1 (877) 889-9009</a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="social">
+                                                    <a class="acn-spr facebook" title="Follow us on Facebook" href="http://www.facebook.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:exit" aria-label="Follow us on Facebook"></a>
+                                                    <a class="acn-spr linkedin" title="Follow us on LinkedIn" href="https://www.linkedin.com/company/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:exit" aria-label="Follow us on LinkedIn"></a>
+                                                    <a class="acn-spr twitter" title="Follow us on Twitter" href="http://www.twitter.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:exit" aria-label="Follow us on Twitter"></a>
+                                                    <a class="acn-spr youtube" title="See Accenture on YouTube" href="http://www.youtube.com/accentureindia" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:exit" aria-label="See Accenture on Youtube"></a>
+                                                    <a class="acn-spr accenture app" title="Accenture Mobile Apps" href="/in-en/accenture-apps" target="_blank" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:exit" aria-label="Accenture Mobile Apps"></a>
+                                                </div>
+                                                <div id="footer-textlink">
+                                                    <ul id="mobile-textlink">
+                                                        <li class="withbordertextlink"><a href="~/About/Location" title="Location" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer"><span style="color:; font-size:15px;">Find a Location</span></a></li>
+
+                                                        <li class="withbordertextlink"><a href="~/About/termsuse" title="Terms of Use" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer"><span style="color:; font-size:15px;">Terms of Use</span></a></li>
+                                                        <li class="withbordertextlink"><a href="~/About/careers" title="Careers" data-rel="cc32db4e-74bf-459e-b39f-afd2b2d774f8" data-name="asset" data-linktype="mobilefooter-preview-mode:footer"><span style="color:; font-size:15px;">Careers</span></a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div id="disclaimer-copyright" class="color-white" style="font-size:15px;">
+                                                    <p class="footer-copyright"><span>©&nbsp;</span><span>2018 </span><span>Algro INC. All Rights Reserved.</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
