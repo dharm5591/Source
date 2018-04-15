@@ -28,5 +28,9 @@ namespace Algro.Inc.Controllers
         {
             return View();
         }
+        public ActionResult success_stories1()
+        {
+            return View();
+        }
     }
 }
